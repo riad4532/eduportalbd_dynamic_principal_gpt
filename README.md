@@ -1,11 +1,11 @@
 <div align="center">
 
 
-# Run and deploy your AI Studio app
+# Run and deploy 
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://eduportalbd-dynamic-principal-gpt-j.vercel.app/
+View your app : https://eduportalbd-dynamic-principal-gpt-j.vercel.app/
 ## Run Locally
 
 **Prerequisites:**  Node.js
