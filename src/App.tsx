@@ -528,13 +528,22 @@ export default function App() {
         </div>
 
         {/* Copyright info block */}
-        <div className="max-w-7xl mx-auto border-t border-white/10 mt-8 pt-4 text-center text-xs text-gray-400 flex flex-col sm:flex-row justify-between items-center gap-2">
-          <span>© 2026 {institution.name_bn}। সর্বস্বত্ব সংরক্ষিত।</span>
-          <span className="flex items-center gap-1">
-            Developed with <Heart className="w-3 h-3 text-red-500 fill-red-500" /> by 
-            <strong onClick={() => setCurrentPage('admin')} className="text-teal-400 cursor-pointer hover:underline">EduPortalBD Platform Engineer</strong>
-          </span>
-        </div>
+       <div className="text-center text-sm text-gray-200">
+          <p>
+            © {new Date().getFullYear()} {institution.name_bn || institution.name_en}. সর্বস্বত্ব সংরক্ষিত।
+          </p>
+          <p className="mt-1">
+            Developed by{" "}
+            <a
+              href="https://techxionbd.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-white hover:text-green-300"
+            >
+              TechXion BD
+            </a>
+          </p>
+       </div>
       </footer>
     </div>
   );
